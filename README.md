@@ -1,4 +1,4 @@
-# Discord Clone with AI Chatbot
+# Chat-Circuit
 
 A modern Discord clone built with Next.js 13, featuring real-time messaging, video calls, and an integrated AI chatbot powered by Google's Gemini API.
 
