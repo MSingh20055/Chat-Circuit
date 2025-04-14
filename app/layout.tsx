@@ -13,9 +13,9 @@ import { ClerkProvider } from "@clerk/nextjs";
 const openSans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Discord Clone",
+  title: "Chat Circuit",
   description:
-    "Discord Clone with Next.js, React.js, TailWindCSS & TypeScript."
+    "Chat Circuit - A modern real-time chat application with video calls and AI integration."
 };
 
 export default function RootLayout({
@@ -33,7 +33,7 @@ export default function RootLayout({
             attribute="class"
             defaultTheme="dark"
             enableSystem
-            storageKey="discord-clone-theme"
+            storageKey="chat-circuit-theme"
           >
             <SocketProvider>
               <ModalProvider />
